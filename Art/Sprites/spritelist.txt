@@ -1,0 +1,12 @@
+player
+moth
+wasp
+bat
+bathurt
+capturedplayer
+#and all the wing flap animations
+playerbullet
+enemybullet
+explosion
+#maybe multiple (game has 5)
+#figure out galagan commander capture beam

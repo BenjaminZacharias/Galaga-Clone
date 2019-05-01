@@ -1,0 +1,53 @@
+#From move function
+#get rid of all this
+            if self.forming:
+                return False
+            else:
+                return False
+            '''
+                #return False#here is where you kick bugs off the grid
+                #not coded well rn. these things should not happen every tick
+                (x,y) = self.gridloc
+                #if x != 2 or y != 5:
+                #    return False
+                #else:
+                self.speed = .8
+                self.ongrid = False
+                self.togrid = False
+                
+                if x >= 5:
+                    self.path_from_loc(5)
+                    if y == 5:
+                        self.path_from_loc(9)
+                    elif y == 4:
+                        self.path_from_loc(9, 50)
+                    else:
+                        self.path.append((gx,gy))
+                else:
+                    self.path_from_loc(4)
+                    if y == 5:
+                        self.path_from_loc(8)
+                    elif y == 4:
+                        self.path_from_loc(8,50)
+                    else:
+                        self.path.append((gx,gy))
+                self.next_dest(1)
+            '''
+
+
+#for getting the grid location and drawing the enemy
+'''
+sprite = enemy[0]
+            (x,y) = enemy[1]
+            x*=48 + gridspacing
+            x += gridx
+            y*=50
+            y += gridy
+            screen.blit(sprite, (x,y))
+          for enemy in E:
+            if enemy.dieonhit == False:
+                sprite = enemy.okSprite.pic
+            else:
+                sprite = enemy.Sprite.pic
+            enemy.draw()  
+'''

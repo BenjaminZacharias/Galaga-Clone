@@ -1,0 +1,39 @@
+DRDAVEHERE: Your challenge: Create a clone of the game Galaga, you cannot read the original code of the game but you may watch videos of gameplay
+DRDAVEHERE: In order to understand the mechanics of the game
+cloudself: i started something similar last year
+cloudself: can I read a thing that states the rules?
+DRDAVEHERE: Yes
+cloudself: so I don't have to guess
+cloudself: good
+DRDAVEHERE: You have 1 month
+cloudself: ah
+cloudself: oof
+DRDAVEHERE: The clone doesnt have to be perfect but it must have a reasonable fraction of playability compared to the original
+DRDAVEHERE: The reward: A steam game of your choice
+cloudself: ooo nice
+DRDAVEHERE: Best of luck, the space fleet is counting on you
+cloudself: I'll try to get started by thursday
+cloudself: maybe today
+DRDAVEHERE: Doesnt matter when you start, only if you finish
+cloudself: fair
+cloudself: So august 3, 9:00pm is my due date?
+DRDAVEHERE: August 3rd 11:59pm
+DRDAVEHERE: You may choose any language
+DRDAVEHERE: And i dont give a fuck about comments
+cloudself: i /should/ go with java, but i'll prob. just go python
+cloudself: if I finish early ill re-make in java
+DRDAVEHERE: Both are suitable options
+DRDAVEHERE: Yeah can also just submit it early and take the next challenge
+cloudself: ooo multiple challenges
+cloudself: this seems well laid out
+DRDAVEHERE: Yes progression my boy
+DRDAVEHERE: It took me a decent amount of time
+cloudself: can I also play the game?
+DRDAVEHERE: Yes
+DRDAVEHERE: You can interact with the game
+cloudself: nice
+cloudself: that looks like all I need
+DRDAVEHERE: Do you're best, don't stress, you're gonna do fine on this test
+DRDAVEHERE: If you ever get super stumped i have no problem with you asking someone like david for help
+cloudself: ok
+DRDAVEHERE is now Away.

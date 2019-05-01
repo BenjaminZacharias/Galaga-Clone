@@ -1,0 +1,91 @@
+Notes:
+
+background moves + has random (? check) stars twinkling
+--> two layers. 'top' layer moving quickly, and 'bottom' layer moving slowly
+--> stars seem fixed, and just twinkle in and out. not sure if 
+	like a gif or randomized in code.
+--> stars are multicoloured
+
+enemies:
+'moth'/'red minion bugs': swoops? bullets
+'wasp'/'yellow minion bugs': swoops, bullets
+'bat'/'galagan commander': moves down & uses tractor beam. two hits to kill
+Thats it.
+#Need to figure out how timing of swoops & shots are decided,
+#as well as pathing. Appearenly, the moths patrol with the bats,
+#--> when the bats go to patrol, they bring 2 (if available) moths with them
+#--> not always. (bat whent to steal, but did not bring moths)
+#but the wasps don't patrol a lot
+--> so far: single line of bats on top,
+	Two lines of moths, and two lines of wasps
+	four bats, moths 8 wide, wasps 10 wide
+	so 4 bats, 16 moths, 20 wasps
+
+pathing:
+Moths wiggle back and forth ~4? times. Quickening as they near the bottom of the screen
+Wasps Swoop below the player, and hook upwards
+Bats loop-de-loop once around the bottom of the 'pack', and then curve subtly (towards the player?) until the bottom of the screen. Moths patrolling with also loop-de-loop.
+Bats do not loop-de-loop when they go to steal. After a steal attempt, bats move directly downwards off the screen
+when going to steal, bats (seem to) curve out of their spot, and move directly to where they want to steal. During a stealing, bats are upside-down from their normal position (draw them 'hanging from the ceiling' then)
+
+When there are lots of bugs left, wasps (moths too? confirm this) will move upwards to return to their spot (maybe if there is another wasp next to their spot? Not ideal, but I'll go with that.)
+	
+When bugs move off screan
+
+projectiles:
+player's are brown with blue tip pointing up (arrow)
+enemies' are white with red tip pointing down (arrow)
+
+Goals for now:
+basic gameboard Sure...?
+player movement CHECK
+full cast in position CHECK
+being able to shoot + destroy enemies
+
+later:
+enemies swooping in* THIS IS FUCKING HARD YO CHECK
+enemies patroling DIFFICULT ALSO
+enemies breaking ranks
+enemies shooting 
+gameboard switching from small to big NAH
+gameboard switching from big to small NAH
+getting points for kills CHECK
+--> points start with 00 (Maybe not)
+likely not possible to have anything but 00 in that spot. Make it a permanent 00 (no?)
+advancing stages
+level banner update on advancing stages (Just num for now unless you feel fancy)
+progressive difficulty for stages*
+player having lives CHECK
+player losing lives CHECK
+player gaining lives CHECK
+background layers (2-3) CHECK
+bat stealing player
+bonus bugs (all varieties)*
+
+#*expand these
+art:
+player CHECK
+playercap
+moth1 #out flap CHECK
+moth2 #in flap
+wasp1 CHECK
+wasp2
+bat1 CHECK
+bat2
+batdamaged1 CHECK
+batdamaged2
+bulletgood CHECK
+bulletbad
+greenbonusbug
+scorpion
+explosion1
+explosion2
+explosion3
+explosion4
+explosion5
+lvlb1 (level banner)
+lvlb5
+lvlb10
+lvlb20
+lvlb30
+lvlb50
